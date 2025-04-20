@@ -1,0 +1,50 @@
+/* login.css */
+
+form {
+    width: 350px; /* Ширина формы */
+    margin: 20px auto; /* Центрирование по горизонтали */
+    border: 1px solid #ccc; /* Тонкая серая рамка */
+    border-radius: 8px; /* Скругление углов */
+    padding: 20px;
+    background-color: #fff; /* Белый фон формы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень для выделения */
+}
+
+h2 {
+    text-align: center; /* Заголовок по центру */
+    margin-bottom: 20px;
+    color: #333; /* Темно-серый цвет заголовка */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Занимает всю ширину контейнера */
+    padding: 12px; /* Внутренние отступы */
+    margin-bottom: 15px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Тонкая серая рамка */
+    border-radius: 4px; /* Скругление углов */
+    box-sizing: border-box; /* Учитывает padding и border в ширине */
+    font-size: 16px; /* Размер шрифта */
+}
+
+button {
+    background-color: #007bff; /* Синий цвет фона кнопки (Bootstrap primary) */
+    color: white; /* Белый текст */
+    padding: 14px 25px; /* Внутренние отступы */
+    border: none; /* Убираем рамку */
+    border-radius: 6px; /* Скругление углов */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+    font-size: 18px; /* Размер шрифта */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона при наведении */
+}
+
+button:hover {
+    background-color: #0056b3; /* Более темный синий цвет при наведении */
+}
+
+
+
+p.error {
+    color: red; /* Красный цвет для сообщений об ошибках */
+    font-weight: bold; /* Жирный шрифт для ошибок */
+}

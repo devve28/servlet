@@ -1,0 +1,50 @@
+/* signup.css */
+
+
+form {
+    width: 350px; /* Adjusted width for better layout */
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for width consistency */
+    font-size: 16px;
+}
+h2 {
+    text-align: center; /* Заголовок по центру */
+    margin-bottom: 20px;
+    color: #333; /* Темно-серый цвет заголовка */
+}
+button {
+    background-color: #007bff; /* Bootstrap primary color - visually appealing */
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+
+p.error {
+    color: red;
+    font-weight: bold;
+}
